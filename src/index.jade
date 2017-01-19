@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+html.no-js(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge,chrome=1")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="icon", href="favicon.ico")
+    link(rel="alternate" href="" hreflang="ja")
+    link(rel="alternate" href="" hreflang="jp")
+    link(rel="alternate" href="" hreflang="en")
+    link(rel="alternate" href="" hreflang="fr")
+    link(rel="canonical", href="")
+
+    include includes/typekit.jade
+    
+    link(rel="stylesheet", href="./assets/css/main-dist.css")
+    
+    //Google Analytics Script
+    include includes/google-analytics.jade
+
+    title(data-i18n="pageTitle") 
+    meta(data-i18n-content="meta" name="description" content="")
+
+  body
+    noscript より良いナビゲーションエクスペリエンスのために、このサイトではJavaScriptを使う必要があります <br/>
+      |For a better navigation experience, this website require JavaScript to be enabled.<br/>
+      |Pour une meilleure navigation ce site utilise JavaScript. Activez le pour une meilleure navigation.
+
+    include includes/header.jade
+    
+    
+
+  script(src="./assets/js/main-dist.js")
+
+    

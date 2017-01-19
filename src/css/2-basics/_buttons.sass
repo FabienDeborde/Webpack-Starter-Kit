@@ -1,0 +1,38 @@
+
+a.btn, input.btn, button.btn
+  background:none
+  border:none
+  display: inline-block
+  vertical-align: middle
+  width: 140px
+  text-decoration: none
+  color: white
+  padding: 1em 2em
+  letter-spacing: 0.1em
+  transition: all 300ms
+  border-radius: 5px
+  cursor: pointer
+
+.btn-doubleborder
+  background: $orange
+  &:hover
+    box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px $orange
+
+.btn-bicolor
+  &:hover
+    background-color: white
+    transition-property: background-color
+    transition-duration: 0.2s
+    transition-timing-function: ease-out
+
+.btn-bicolor-blue
+  background-color: $blue
+  &:hover
+    color: $blue
+    box-shadow: 0px 0px 0px 1px $blue, 0px 0px 2px 3px rgba(0,0,0,0.1)
+
+.btn-bicolor-orange
+  background-color: $orange
+  &:hover
+    color: $orange
+    box-shadow: 0px 0px 0px 1px $orange, 0px 0px 2px 3px rgba(0,0,0,0.1)

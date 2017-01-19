@@ -1,0 +1,48 @@
+{
+  "name": "CreaWeb.Solutions",
+  "version": "1.0.0",
+  "description": "CreaWeb official homepage",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "webpack-dev-server --progress --colors --hot --inline --output-public-path=/dist/assets/js/",
+    "start-watch": "webpack --progress --colors --watch",
+    "dev": "npm run start-watch | npm run start-server",
+    "prod": "webpack --config webpack-production.config.js -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabienDeborde/CreaWeb.Solutions.git"
+  },
+  "keywords": [],
+  "author": "Fabien Deborde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabienDeborde/CreaWeb.Solutions/issues"
+  },
+  "homepage": "https://github.com/FabienDeborde/CreaWeb.Solutions#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.26.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "jquery": "^1.12.4",
+    "jshint": "^2.9.4",
+    "jshint-loader": "^0.8.3",
+    "node-sass": "^4.3.0",
+    "postcss": "^5.2.10",
+    "sass-loader": "^4.1.1",
+    "strip-loader": "^0.1.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 5 versions",
+    "IE 10"
+  ]
+}
